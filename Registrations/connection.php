@@ -5,9 +5,9 @@ $pass = "";
 $host = "localhost";
 
 
-$con = mysqli_connect($host, $user, $pass, $db);
+$con = mysqli_connect($host,$user,$pass,$db);
 if ($con) { 
-    echo "Connected to dabasse";
+    echo "Connected to dacbasse";
 }
 else {
     echo "Error!";
